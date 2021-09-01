@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1{
+    color: #416788;
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+}
+body{
+    background-color: #25291C;
+}
+.formulario__color{
+    color: #65B891;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+h2{
+    color: hsl(175, 66%, 36%);
+}
+header picture img{
+    max-width: auto;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section{
+    width: 30%;
+
+}
+
+.centrarDiv{
+    display: flex;
+    align-items: center;
+}

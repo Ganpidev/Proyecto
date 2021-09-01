@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1{
+    text-align: center;
+    color: #416788;
+    font-family: 'Staatliches', cursive;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+header picture img{
+    max-width: auto;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background-color: rgba(0, 0, 255, 0.192);
+}
+
+section{
+    width: 30%;
+
+}
+
+
+main{
+    background-color: white;
+    height: 50%;
+}
+
+.center{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+
+}
+
+
+.card__container{
+   width: 100%;
+   max-width: 1200px;
+   height: 430px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+}
+
+.card__container .card{
+   width: 330px;
+   height: 430px;
+   border-radius: 8px;
+   overflow: hidden;
+   margin: 20px;
+   transition: all 0.25s;
+}
+
+.card__container .card:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card__container .card img{
+   width: 330px;
+   height: 220;
+}
+
+.box__link{
+   text-decoration: none;
+   text-align: center;
+   color: #6b6b6b;}
+.card :hover{
+   color: #08c;
+}
+
+
+/*operaciones*/
+
+
+$padding: 80px;
+$font-size:30px;
+
+.nav-link{
+    padding: $padding/2;
+    font-size: ($font-size)-5;
+}  
+
+
