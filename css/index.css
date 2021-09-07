@@ -3,6 +3,42 @@
   padding: 0;
   box-sizing: inherit; }
 
+  ul {
+    list-style-type: none; }
+  
+  ul {
+    display: flex;
+    justify-content: space-around; }
+  
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+}
+  
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold; }
+  
+.nav-link:hover {
+    background-color: rgba(0, 0, 255, 0.192); 
+}
+
+.nav-link{
+    padding: 40px;
+    font-size: 25px;
+}
+
+.logo__achicar{
+    width: 50%;
+    height: 50%;
+    }    
+
+    /* acaba header*/
+
 h1 {
   text-align: center;
   color: #416788;
@@ -11,39 +47,16 @@ h1 {
 body {
   display: flex;
   flex-direction: column; }
-
-ul {
-  list-style-type: none; }
-
-ul {
-  display: flex;
-  justify-content: space-around; }
-
-header picture img {
-  max-width: auto; }
-
+  
 header {
   background-color: white;
   display: flex;
-  height: 20vh;
   justify-content: space-between;
   align-items: flex-end; }
 
-.nav-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-weight: bold; }
-
-.nav-link:hover {
-  background-color: rgba(0, 0, 255, 0.192); }
-
-section {
-  width: 30%; }
 
 main {
-  background-color: white;
-  height: 50%; }
+  background-color: white; }
 
 .center {
   text-align: center;

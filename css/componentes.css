@@ -4,7 +4,10 @@
     box-sizing: inherit;
 }
 
-
+.logo__achicar{
+    height: 50%;
+    width: 50%;
+}
 
 body{
     display: flex;
